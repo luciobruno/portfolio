@@ -67,7 +67,8 @@ const HeroTitle = styled.h1`
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  padding: 50px 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 `;
 
 const ProjectsGrid = styled.div`
@@ -75,7 +76,6 @@ const ProjectsGrid = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
   width: 80%;
-  margin-top: 40px;
 `;
 
 const ProjectCard = styled.div`
