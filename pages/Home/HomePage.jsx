@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Header from "../../components/Header";
 import { homeContent } from "../../utils/HomeUtils";
 import { useLanguage } from "../../contexts/LanguageContext";
+import PerfilImage from '../../public/Perfil.jpeg';
 
 export default function HomePage() {
   const { language } = useLanguage();
@@ -22,6 +23,7 @@ export default function HomePage() {
       <Header />
       <HeroSection>
         <HeroTitle>{welcomeTitle}</HeroTitle>
+        <Image src={PerfilImage}></Image>
         <Section>
           <Text>{welcomeSubtitle}</Text>
         </Section>
@@ -111,3 +113,11 @@ const Details = styled.p`
   color: #9c9c9c;
   margin-bottom: 10px; /* Espaçamento maior entre os detalhes */
 `;
+
+const Image = styled.img`
+  margin-top: 20px;
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  margin-bottom: 20px;
+`
