@@ -7,7 +7,7 @@ export const contactInfo = {
         {
           icon: "FaLinkedin",
           label: "LinkedIn",
-          url: "https://www.linkedin.com/in/luciobruno",
+          url: "https://www.linkedin.com/in/lucio-bruno",
           text: "linkedin.com/in/luciobruno",
         },
         {
@@ -32,7 +32,7 @@ export const contactInfo = {
         {
           icon: "FaLinkedin",
           label: "LinkedIn",
-          url: "https://www.linkedin.com/in/luciobruno",
+          url: "https://www.linkedin.com/in/lucio-bruno",
           text: "linkedin.com/in/luciobruno",
         },
         {

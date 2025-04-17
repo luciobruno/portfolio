@@ -14,7 +14,7 @@ export const homeContent = {
       education: {
         institution: "FUCAPI",
         degree: "Bachelor's in Software Engineering",
-        duration: "Jan 2024 - Dec 2028",
+        duration: "Jan 2024 - Dec 2027",
         details: "Software development and C programming language.",
       },
     },
@@ -33,7 +33,7 @@ export const homeContent = {
       education: {
         institution: "FUCAPI",
         degree: "Bacharelado em Engenharia de Software",
-        duration: "Jan 2024 - Dez 2028",
+        duration: "Jan 2024 - Dez 2027",
         details: "Desenvolvimento de software e linguagem de programação C.",
       },
     },

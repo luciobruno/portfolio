@@ -32,7 +32,7 @@ export default function Header() {
             <FaGithub />
           </ContactLink>
           <ContactLink
-            href="https://www.linkedin.com/in/luciobruno"
+            href="https://www.linkedin.com/in/lucio-bruno"
             target="_blank"
             rel="noopener noreferrer"
           >
